@@ -37,25 +37,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:system/etc/camera/s5k5e8_ofilm_chromatix.xml \
     vendor/xiaomi/mido/proprietary/etc/camera/s5k5e8_qtech_chromatix.xml:system/etc/camera/s5k5e8_qtech_chromatix.xml \
     vendor/xiaomi/mido/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/xiaomi/mido/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/xiaomi/mido/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/xiaomi/mido/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/xiaomi/mido/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/xiaomi/mido/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/xiaomi/mido/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/mido/proprietary/lib/hw/fingerprint.searchf.so:system/lib/hw/fingerprint.searchf.so \
     vendor/xiaomi/mido/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/mido/proprietary/lib64/hw/fingerprint.searchf.so:system/lib64/hw/fingerprint.searchf.so \
@@ -71,12 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
-    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
-    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
-    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
-    vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt \
-    vendor/xiaomi/mido/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
-    vendor/xiaomi/mido/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
     vendor/xiaomi/mido/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
@@ -641,8 +631,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal \
+    qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel \
     qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel \
-    qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel
+    qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel \
+    qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel \
+    qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \

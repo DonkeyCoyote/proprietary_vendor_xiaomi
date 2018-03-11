@@ -1,0 +1,1 @@
+libqti-perfd-client.so

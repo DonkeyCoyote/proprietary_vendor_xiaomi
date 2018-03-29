@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/msm8998-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/bin/mmbn-daemon:system/vendor/bin/mmbn-daemon \
     vendor/xiaomi/msm8998-common/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/xiaomi/msm8998-common/proprietary/etc/calib.cfg:system/etc/calib.cfg \
     vendor/xiaomi/msm8998-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
@@ -654,7 +655,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/activity_recognition.msm8998.so:system/vendor/lib64/hw/activity_recognition.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8998.so:system/vendor/lib64/hw/fingerprint.fpc.msm8998.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8998.so:system/vendor/lib64/hw/fingerprint.goodix.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:system/vendor/lib64/hw/gatekeeper.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/keystore.msm8998.so:system/vendor/lib64/hw/keystore.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so:system/vendor/lib64/hw/sound_trigger.primary.msm8998.so \

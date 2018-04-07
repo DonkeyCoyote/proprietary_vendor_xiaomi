@@ -170,8 +170,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:system/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libvpp_frc.so:system/vendor/lib/rfsa/adsp/libvpp_frc.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:system/vendor/lib64/com.fingerprints.extension@1.0.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8998.so:system/vendor/lib64/hw/fingerprint.fpc.msm8998.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8998.so:system/vendor/lib64/hw/fingerprint.goodix.msm8998.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libgf_ca.so:system/vendor/lib64/libgf_ca.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libgf_hal.so:system/vendor/lib64/libgf_hal.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:system/vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so

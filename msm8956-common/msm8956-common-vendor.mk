@@ -269,8 +269,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
-    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
-    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \

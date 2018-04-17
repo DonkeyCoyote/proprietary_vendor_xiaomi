@@ -1,4 +1,4 @@
-service dpmd /vendor/bin/dpmd
+service dpmd /system/bin/dpmd
     class late_start
     socket dpmd stream 660 root system
     socket tcm  stream 660 root inet

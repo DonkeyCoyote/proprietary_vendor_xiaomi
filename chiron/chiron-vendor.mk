@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/thermal-engine-8998.conf:system/vendor/etc/thermal-engine-8998.conf \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:system/vendor/lib/libSonyIMX386PdafLibrary.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so:system/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:system/vendor/lib/libadsp_hvx_callback_skel.so \

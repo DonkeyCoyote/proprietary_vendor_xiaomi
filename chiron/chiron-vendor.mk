@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/etc/jdi_fhd_video_dsi_panel_ct.xml:system/etc/jdi_fhd_video_dsi_panel_ct.xml \
     vendor/xiaomi/chiron/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
     vendor/xiaomi/chiron/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
-    vendor/xiaomi/chiron/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb:system/vendor/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb \
     vendor/xiaomi/chiron/proprietary/vendor/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb:system/vendor/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb \
@@ -47,10 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/thermal-engine-8998.conf:system/vendor/etc/thermal-engine-8998.conf \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so:system/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:system/vendor/lib/libadsp_hvx_callback_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so:system/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_4K_video.so:system/vendor/lib/libchromatix_chiron_imx386_semco_4K_video.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_common.so:system/vendor/lib/libchromatix_chiron_imx386_semco_common.so \
@@ -137,45 +132,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_video_full.so:system/vendor/lib/libchromatix_chiron_ov5675_qtech_video_full.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_preview.so:system/vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_preview.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_video.so:system/vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_video.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_imx386_semco.so:system/vendor/lib/libmmcamera_chiron_imx386_semco.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so:system/vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_primax.so:system/vendor/lib/libmmcamera_chiron_ov5675_primax.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so:system/vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/chiron-s/dirac_resource.dar:system/vendor/lib/rfsa/adsp/chiron-s/dirac_resource.dar \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:system/vendor/lib/rfsa/adsp/dirac_resource.dar \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/dirac_resource.so:system/vendor/lib/rfsa/adsp/dirac_resource.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libdirac-capiv2.so:system/vendor/lib/rfsa/adsp/libdirac-capiv2.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libexternal_dog_skel.so:system/vendor/lib/rfsa/adsp/libexternal_dog_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libhvxMathVIO.so:system/vendor/lib/rfsa/adsp/libhvxMathVIO.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so:system/vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:system/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libvpp_frc.so:system/vendor/lib/rfsa/adsp/libvpp_frc.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:system/vendor/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8998.so:system/vendor/lib64/hw/fingerprint.fpc.msm8998.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8998.so:system/vendor/lib64/hw/fingerprint.goodix.msm8998.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libgf_ca.so:system/vendor/lib64/libgf_ca.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/libgf_hal.so:system/vendor/lib64/libgf_hal.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so \

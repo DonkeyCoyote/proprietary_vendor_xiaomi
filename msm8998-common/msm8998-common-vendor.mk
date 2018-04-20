@@ -252,14 +252,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/bin/nv_mac:system/vendor/bin/nv_mac \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \

@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libfiltergenerator.so:system/lib64/libfiltergenerator.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
@@ -69,6 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/libldacBT_abr.so:system/lib64/libldacBT_abr.so \
+    vendor/xiaomi/msm8998-common/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
     vendor/xiaomi/msm8998-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
@@ -174,8 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libarcsoft_beautyshot.so:system/vendor/lib/libarcsoft_beautyshot.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libarcsoft_beautyshot_image_algorithm.so:system/vendor/lib/libarcsoft_beautyshot_image_algorithm.so \
@@ -200,8 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libldacBT_abr.so:system/vendor/lib/libldacBT_abr.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
@@ -428,8 +428,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
-    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \

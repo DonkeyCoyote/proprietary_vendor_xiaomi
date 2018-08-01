@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libFidoCrypto_system.so:system/lib/libFidoCrypto_system.so \
     vendor/xiaomi/whyred/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/whyred/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
+    vendor/xiaomi/whyred/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/xiaomi/whyred/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
     vendor/xiaomi/whyred/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/xiaomi/whyred/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
@@ -152,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libFidoCrypto_system.so:system/lib64/libFidoCrypto_system.so \
     vendor/xiaomi/whyred/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/whyred/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
+    vendor/xiaomi/whyred/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/xiaomi/whyred/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
     vendor/xiaomi/whyred/proprietary/lib64/libSNPE.so:system/lib64/libSNPE.so \
     vendor/xiaomi/whyred/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
@@ -1826,5 +1828,6 @@ PRODUCT_PACKAGES += \
     SecProtect \
     TimeService \
     colorservice \
+    WfdCommon \
     com.qti.snapdragon.sdk.display \
     qcrilhook

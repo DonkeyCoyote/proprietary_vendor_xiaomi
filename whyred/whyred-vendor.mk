@@ -173,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/whyred/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
     vendor/xiaomi/whyred/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymaster.so \
     vendor/xiaomi/whyred/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/xiaomi/whyred/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
     vendor/xiaomi/whyred/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \

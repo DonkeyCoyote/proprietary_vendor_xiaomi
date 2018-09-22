@@ -90,8 +90,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/xiaomi/whyred/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/whyred/proprietary/lib/libhbtpjni.so:system/lib/libhbtpjni.so \
+    vendor/xiaomi/whyred/proprietary/lib/libicuuc-v27.so:system/lib/libicuuc-v27.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
+    vendor/xiaomi/whyred/proprietary/lib/libminikin-v27.so:system/lib/libminikin-v27.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
@@ -102,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/whyred/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
     vendor/xiaomi/whyred/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
+    vendor/xiaomi/whyred/proprietary/lib/libskia.so:system/lib/libskia.so \
     vendor/xiaomi/whyred/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/xiaomi/whyred/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/xiaomi/whyred/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \

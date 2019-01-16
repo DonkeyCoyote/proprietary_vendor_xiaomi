@@ -7,8 +7,8 @@ service wfdservice /system/bin/wfdservice
     disabled
     oneshot
 
-on property:sys.wfdservice=enable
+on property:vendor.wfdservice=enable
     start wfdservice
 
-on property:sys.wfdservice=disable
+on property:vendor.wfdservice=disable
     stop wfdservice

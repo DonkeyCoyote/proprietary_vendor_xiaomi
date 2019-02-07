@@ -605,6 +605,7 @@ PRODUCT_PACKAGES += \
     SmartcardService \
     dpmserviceapp \
     ims \
+    imssettings \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \

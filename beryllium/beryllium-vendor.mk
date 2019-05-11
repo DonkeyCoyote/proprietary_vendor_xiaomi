@@ -193,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/beryllium/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
     vendor/xiaomi/beryllium/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so \
     vendor/xiaomi/beryllium/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so \
+    vendor/xiaomi/beryllium/proprietary/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
     vendor/xiaomi/beryllium/proprietary/lib64/xlog_client.so:system/lib64/xlog_client.so \
     vendor/xiaomi/beryllium/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/beryllium/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so

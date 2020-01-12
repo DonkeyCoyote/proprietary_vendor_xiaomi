@@ -6,5 +6,5 @@
  -->
 <permissions>
     <library name="android.hidl.manager-V1.0-java"
-          file="/system/framework/android.hidl.manager-V1.0-java.jar"/>
+          file="/system/framework/android.hidl.manager@1.0-java.jar"/>
 </permissions>

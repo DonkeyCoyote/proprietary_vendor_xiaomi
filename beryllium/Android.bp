@@ -31,6 +31,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "com.qualcomm.location",
+	owner: "xiaomi",
+	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "PowerOffAlarm",
 	owner: "xiaomi",
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",

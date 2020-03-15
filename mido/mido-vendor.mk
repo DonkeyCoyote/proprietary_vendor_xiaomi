@@ -875,6 +875,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmcamera_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_mono.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmcamera_s5k3l8_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_ofilm.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib/libchromatix_s5k5l8_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5l8_ofilm_snapshot.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmcamera_s5k3l8_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_qtech.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmcamera_s5k3l8_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_sunny.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e8_ofilm.so \

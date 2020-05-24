@@ -22,6 +22,7 @@
 /vendor/lib/modules/audio_q6.ko: /vendor/lib/modules/audio_apr.ko /vendor/lib/modules/audio_q6_notifier.ko /vendor/lib/modules/audio_q6_pdr.ko
 /vendor/lib/modules/tspp.ko:
 /vendor/lib/modules/audio_swr.ko:
+/vendor/lib/modules/sla.ko:
 /vendor/lib/modules/audio_tas2557.ko:
 /vendor/lib/modules/audio_wcd_spi.ko:
 /vendor/lib/modules/mpq-dmx-hw-plugin.ko: /vendor/lib/modules/mpq-adapter.ko /vendor/lib/modules/tspp.ko

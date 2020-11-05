@@ -200,5 +200,4 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
-    libplatformconfig \
     qti-telephony-common

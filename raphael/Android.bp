@@ -144,25 +144,6 @@ android_app_import {
 	product_specific: true,
 }
 
-cc_prebuilt_library_shared {
-	name: "libplatformconfig",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/libplatformconfig.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/libplatformconfig.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
 dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",

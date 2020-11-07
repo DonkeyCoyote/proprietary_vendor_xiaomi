@@ -154,5 +154,5 @@ dex_import {
     name: "qti-telephony-common",
     owner: "xiaomi",
     jars: ["proprietary/product/framework/qti-telephony-common.jar"],
-    product_specific: true,
+    system_ext_specific: true,
 }
